@@ -1,0 +1,161 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #fefefe;
+  color: #333;
+}
+
+header {
+  background-color: #692764;
+  color: white;
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.texto h2 {
+  color: #692764;
+  margin-bottom: 20px;
+}
+
+.texto ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff8f0;
+  border: 1px solid #f0c68b;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 250px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #692764;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #b384b1;
+}
+
+.redes {
+  margin-top: 15px;
+}
+
+.redes a {
+  color: #b384b1;
+  text-decoration: none;
+}
+
+.redes a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+footer p {
+  margin: 0;
+}
+.foto-redonda {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 6px solid #b384b1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.foto2-redonda {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 6px solid #b384b1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.foto3-redonda {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 6px solid #b384b1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
